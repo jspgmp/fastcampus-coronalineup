@@ -1,6 +1,7 @@
 package com.fastcampus.getinline.controller.api;
 
 import com.fastcampus.getinline.exception.GeneralException;
+import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,8 +11,8 @@ import java.util.List;
 public class APIEventController {
 
     @GetMapping("/events")
-    public List<String> getEvents(){
-        throw new RuntimeException("테스트런타임메세지");
+    public List<String> getEvents() throws Exception{
+        throw new HttpRequestMethodNotSupportedException("405 에러 테스트");
        //return List.of("event1", "event2");
     }
 
