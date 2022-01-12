@@ -1,4 +1,4 @@
-package domain;
+package com.fastcampus.getinline.domain;
 
 import lombok.Data;
 

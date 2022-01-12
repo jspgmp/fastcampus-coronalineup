@@ -1,6 +1,6 @@
-package domain;
+package com.fastcampus.getinline.domain;
 
-import constant.EventStatus;
+import com.fastcampus.getinline.constant.EventStatus;
 import lombok.Data;
 
 import java.time.LocalDateTime;

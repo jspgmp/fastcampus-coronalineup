@@ -1,6 +1,6 @@
-package controller;
+package com.fastcampus.getinline.controller;
 
-import constant.PlaceType;
+import com.fastcampus.getinline.constant.PlaceType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
